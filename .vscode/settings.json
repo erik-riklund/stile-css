@@ -1,0 +1,28 @@
+{
+  // Disables editor links, which is enabled by default.
+  "editor.links": false,
+
+  // Specifies the files and folders that should not be shown in the workspace explorer.
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/bun.lock": true
+  },
+
+  // Options controlling the formatting of JSON files.
+  "json.format.enable": true,
+  "json.format.keepLines": true,
+
+  // Options controlling the formatting of JavaScript files.
+  "javascript.format.enable": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+  "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+  "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+
+  // Options controlling the formatting of TypeScript files.
+  "typescript.format.enable": true,
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+  "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+  "typescript.format.placeOpenBraceOnNewLineForFunctions": true
+}
