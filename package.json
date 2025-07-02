@@ -8,5 +8,9 @@
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "scripts": {
+    "build-core": "bun build --entrypoints ./core/index.ts --outdir ./_temp --target node",
+    "build-plugin/reusable-blocks": "bun build --entrypoints ./plugins/reusable-blocks/index.ts --outdir ./_temp --target node"
   }
 }
