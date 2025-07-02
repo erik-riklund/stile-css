@@ -1,6 +1,6 @@
-## Stile.css – *a plugin-driven CSS build pipeline*
+### Stile.css - a plugin-focused CSS build pipeline
 
-> ⚠️ Experimental state, **not production-ready**.
+> ⚠️ _Currently in an experimental state, **not production-ready**._
 
 ---
 
