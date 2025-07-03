@@ -1,6 +1,6 @@
-import { createTreeFromString } from './modules/parser'
-import { transformTree } from './modules/transformer'
-import { renderTreeToString } from './modules/renderer'
+import { createTreeFromString } from './parser'
+import { transformTree } from './transformer'
+import { renderTreeToString } from './renderer'
 
 /**
  * Creates a new pipeline function that uses the provided plugins to perform
