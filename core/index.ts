@@ -29,7 +29,7 @@ export const makePipeline = (plugins: CssPipeline.Plugin[] = []) =>
     }
 
     const tree = createTreeFromString(input);
-    transformTree(tree, [...transformPlugins]);
+    transformTree(tree, transformPlugins);
 
     let output = renderTreeToString(tree);
 
