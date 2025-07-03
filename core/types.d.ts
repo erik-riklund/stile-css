@@ -3,9 +3,6 @@ import { makeParserState } from './modules/parser'
 
 declare global
 {
-  /**
-   * Contains all the types used by the CSS engine and its plugins.
-   */
   namespace CssPipeline
   {
     /**
@@ -41,7 +38,8 @@ declare global
        * Metadata associated with the block. Useful for error reporting or source mapping.
        */
       metadata: {
-        start: { line: number, column: number }, end?: { line: number, column: number }
+        start: { line: number, column: number },
+        end?: { line: number, column: number }
       }
     }
 
@@ -62,7 +60,9 @@ declare global
      * Its handler takes the current output string and the abstract tree, which can be
      * used to analyze or document the structure. It returns a modified output string.
      */
-    type OutputPlugin = { stage: 'output', handler: (result: string, tree: AbstractTree) => string };
+    type OutputPlugin = { stage: 'output',
+      handler: (result: string, tree: AbstractTree) => string
+    };
 
     /**
      * Represents the internal state of the parser at a given point during parsing.
